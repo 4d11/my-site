@@ -1,6 +1,30 @@
+
+
+#header {height: 50px;
+		padding: 5px;
+		background-color: gray;
+}
+		
+#navigation{position:absolute;
+			top: 70px;
+			width: 150px;
+			}
+			
+			
+			
+
+		
+
+		
+		
+
 body {font-family: calibri;
 	 font-size: 12pt; 
 	 color: rgb(64,64,64);
-	 }
+	 margin: 25px  75px 25px 75px;
+	 padding: 0px;
+	}
+	 
+
 
 h2 {color: rgb(61,133,198;}
