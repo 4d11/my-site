@@ -2,30 +2,42 @@
 <html>
 
 	<head>
-		<title> 4d11.me | Contact Me  </title>
+		<title> 4d11 | Contact Me  </title>
 		<link rel="stylesheet" href="stylesheets/styles.css">
 		<link rel="shortcut icon" href="Pictures/Pic.ico">
 	</head>
 
 	<body>
-		<form action="mailto:aadilasim@hotmail.com"> <!-- find alt -->
-		<table>
-		<tr>
-			<td> Name: </td>
-			<td> <input type="text" name="Name" />  </td>
-		</tr>	
-			<td> Email: </td>
-			<td> <input type="text" name="Email" /> <!-- input checker --> </td>
-		<tr>	
-			<td> Message: </td>
-			<td> <textarea name="Message" cols="30" rows="5"> 
-				 </textarea> 
-			</td>
-		</tr>
-		</table>
+		<span class="navbar">
+			<ul>
+				<li> <a href="resume.pdf"> Resume </a> </li>
+				<li> <a href="projects.html"> Projects </a> </li>
+				<li> <a href="index.html"> <img src="Pictures/piskel-gif.gif"> </a> <li>
+				<li> <a href="https://github.com/4d11/"> GitHub </a> </li>
+				<li> <a href="contact-me.html"> Contact me </a> </li>
+			</ul>
+        </span>
 		
-			 <input type="submit" value="Submit" />
-		</form>
+		<div id="content">
+			<form name="htmlform" method="post" action="html_form_send.php">  
+			<table width="450px">
+				<tr>
+					<td> <label for="name"> Name: </label></td>
+					<td> <input type="text" name="name" />  </td>
+				</tr>	
+					<td> <label for="email">Email Address:</label> </td>
+					<td> <input type="text" name="email" /> <!-- input checker --> </td>
+				<tr>	
+					<td>  <label for="message"> Message: </label></td>
+					<td> <textarea name="message" cols="30" rows="5"> 
+						 </textarea> 
+					</td>
+				</tr>
+			</table>
+			
+				 <input type="submit" value="Submit" /> 
+			</form>
+		</div>
 	</body>
 
 </html>
