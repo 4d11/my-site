@@ -1,0 +1,36 @@
+
+/** used for nav bar **/
+.navbar{
+	width: 960px;
+	float: left;
+	font-family: visitor2;
+	font-size: 28pt;
+	margin: 25px; 
+	padding: 0;
+	clear: right;
+}
+
+.navbar li{
+	list-style: none;
+	margin: 0; 
+	padding: 0;
+    float: left;/
+}
+
+.navbar a{
+	color: #3366ff;
+	float:left;
+	display: block;
+	padding: 10px;
+	/* background-color: #666666; */
+	text-decoration: none; 
+}		
+		
+.navbar a:hover{
+	background: #8c8c8c;
+}
+
+
+
+
+

@@ -2,7 +2,6 @@
 if(isset($_POST['email'])) {
      
     $email_to = "aadilasim@hotmail.com";
-     
     $email_subject = "4d11.com Form Submissions";
      
      
